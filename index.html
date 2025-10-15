@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toko Aksesoris Rahmah</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Toko Aksesoris Rahmah</h1>
+    <nav>
+      <a href="#produk">Produk</a>
+      <a href="#tentang">Tentang</a>
+      <a href="#pemesanan">Pemesanan</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Aksesoris Modis & Terjangkau</h2>
+    <p>Temukan gelang, kalung, jedai, dan lainnya di Toko Rahmah.</p>
+  </section>
+
+  <section id="produk" class="produk">
+    <h2>Produk Kami</h2>
+    <div class="grid" id="product-list"></div>
+  </section>
+
+  <section id="tentang" class="tentang">
+    <h2>Tentang Kami</h2>
+    <p><strong>Nama Toko:</strong> Rahmah</p>
+    <p><strong>Pemilik:</strong> Rahmah</p>
+    <p><strong>Alamat:</strong> Jl. raya dusun1.meranjat 3</p>
+    <p><strong>Kontak:</strong> +62 812-3171-2843 | rahmah0862@gmail.com</p>
+  </section>
+
+  <section id="pemesanan" class="pemesanan">
+    <h2>Cara Pemesanan Online</h2>
+    <ol>
+      <li>Pilih produk dan klik tombol <em>Tambah ke Keranjang</em>.</li>
+      <li>Klik tombol <strong>Checkout</strong> untuk isi data pemesan.</li>
+      <li>Isi biodata penerima dan pilih metode pembayaran.</li>
+      <li>Kirim pesanan ke admin melalui email atau pesan WhatsApp.</li>
+    </ol>
+    <button id="checkout-btn">Checkout</button>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Rahmah. Semua Hak Dilindungi.</p>
+  </footer>
+
+  <div id="cart" class="cart">
+    <h3>Keranjang Belanja</h3>
+    <div id="cart-items"></div>
+    <p id="total">Total: Rp0</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
